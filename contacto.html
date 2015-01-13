@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Grupo Tempora | Contacto</title>
+	<meta name="description" content="Grupo Témpora, Música para bodas, banquetes y eventos en Madrid."/>
+	<link href="style.css"rel="stylesheet" type="text/css" title="normal view"/>
+	<link rel="icon" type="image/png" href="imagenes/favicon.png" />
+</head>
+<header>
+	<div align="center"> 
+		<img src="imagenes/Grupo-Tempora.png" alt="Grupo Tempora" align="absmiddle">
+		<br>
+		<a href="index.html">Inicio &nbsp &nbsp</a>
+		<a href="agrupaciones.html">&nbsp Agrupaciones y servicios &nbsp &nbsp</a>
+		<a href="tarifas.html">&nbsp Tarifas &nbsp &nbsp</a>
+		<a href="repertorio.html">&nbsp Repertorio &nbsp &nbsp</a>
+		<a href="escuchanos.html">&nbsp Escúchanos &nbsp &nbsp</a>
+		<a href="contacto.html" class="active">&nbsp Contacto</a>
+		<br><br><br>
+	</div>
+</header>
+<body>
+	<table style="margin-left:0px;" width="100%">
+		<tr>
+			<td width="50%">
+				<h1>Contacto</h1>
+				<hr style="background-color:#CFB486; border-color:#CFB486; margin-left:215px; margin-right:315px; height:1px; margin-top:-14px; border:0;">
+			</td>
+			<td width="50%">
+				<h1>Partners</h1>
+				<hr style="background-color:#CFB486; border-color:#CFB486; margin-left:215px; margin-right:315px;  height:1px; margin-top:-14px; border:0;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="agrupaciones">
+					Envíenos  sus datos de contacto mediante este<br> formulario o directamente a nuestra dirección de<br> correo&nbsp 
+					<a href="mailto:temporagrupo@gmail.com" style="color:#B78837;">temporagrupo@gmail.com</a><br> 
+					Nos pondremos en contacto con usted a la mayor<br> brevedad posible.<br>
+				</p>
+				<p class="tarifas">
+					Gracias por contactar con nosotros.
+				</p>
+			</td>
+			<td>
+				<p style="margin-left:220px; margin-top:-65px;">
+					<a href="http://amgfotografia.com/" target="_blank" style="color:#B78837;">AMG Fotografía</a> (Vídeo y Fotografía)
+				</p>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<form action="formulario.php" method="post">
+		<table border="1" class="formulario" align="center" cellpadding="8px">
+			<tr>
+				<td class="formulario" align="center">*Nombre:</td>
+				<td class="formulario" align="center"><input type="text" name="nombre" maxlength="40" required="true"> </td>
+			</tr>
+			<tr>
+				<td class="formulario" align="center">*E-mail:</td>
+				<td class="formulario" align="center"><input type="email" name="email" maxlength="30" required="true"></td>
+			</tr>
+			<tr>
+				<td class="formulario" align="center">Teléfono:</td>
+				<td class="formulario" align="center"><input type="tel" name="telf" pattern="[0-9]{9}"></td>
+			</tr>
+			<tr>
+				<td class="formulario" align="center">*Tipo de evento:</td>
+				<td class="formulario" align="center"><input type="text" name="tipoEvento" required="true"></td>
+			</tr>
+			<tr>
+				<td class="formulario" align="center">Fecha del evento:</td>
+				<td class="formulario" align="center"><input type="date" name="fecha"></td>
+			</tr>
+				<tr>
+				<td class="formulario" align="center">Lugar del evento:</td>
+				<td class="formulario" align="center"><input type="text" name="lugarEvento"></td>
+			</tr>
+			<tr>
+				<td class="formulario" align="center">Agrupación que solicita:</td>
+				<td class="formulario" align="center">
+					<select name="agrupacion">
+						<option value="Instrumento Solista">- INSTRUMENTO SOLISTA -</option>
+						<option value="Dúo">- DÚO -</option>
+						<option value="Trío">- TRÍO -</option>
+						<option value="Cuarteto">- CUARTETO -</option>
+						<option value="Instrumento y voz">- INSTRUMENTO Y VOZ -</option>
+						<option value="Otros">- OTROS - </option>
+						<option value="Aún no lo he decidido" selected>- AÚN NO LO HE DECIDIDO -</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				
+				<td class="formulario" align="center" colspan="2">
+					<br>Información adicional / Consulta<br>
+					<textarea name="adicional" cols="50" rows="6"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="formulario"><font size=-2>(*)Información requerida</font></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2" class="formulario">
+					<input class="submit" type="submit" value="Enviar" border="1" style="border-color:#424242;">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<p align="center" class="datos"><font size="-3">Estos datos servirán únicamente para enviarte información. Nosotros no vendemos<br>
+		ni compartimos los datos que nos has facilitado.
+	</font></p>
+	<div align="center" style="margin-top:50px; margin-left:-10px;"><img width="350px" height="100px" src="imagenes/Grupo-Tempora.png" alt="Grupo Tempora"><div>
+</body>
+<footer>
+	<br>
+	<hr width="100%" color="#CFB486"/>
+	<p class="footer-blanco">Copyright © 2014 <font color="CFB486">Grupo Témpora</font> - All Right Reserved</p>
+											<p class="footer-color">temporagrupo@gmail.com</p>
+											<p class="footer-color">Telf:609690851</p>
+	<div style="z-index:1; position:relative; top:-47px;">
+		<a href="https://www.youtube.com/channel/UC6QuBQDYvCAq3NLBTFh0Sww" target="_blank"><img style="float:right; margin-right:195px;" src="imagenes/logo Youtube.png"></a>
+		<a href="https://twitter.com/GrupoTempora" target="_blank"><img align="right" src="imagenes/logo Twiter.png"></a>
+		<a href="https://www.facebook.com/pages/Grupo-Tempora/676200685789632" target="_blank"><img align="right" src="imagenes/logo Facebook.png"></a>
+	</div>
+</footer>
+</html>
